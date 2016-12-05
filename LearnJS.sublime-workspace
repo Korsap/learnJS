@@ -88,31 +88,20 @@
 	"buffers":
 	[
 		{
-			"file": "HelloWorldJS.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 226,
+				"buffer_size": 219,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Page.html",
+			"file": "Learn.js",
 			"settings":
 			{
-				"buffer_size": 513,
+				"buffer_size": 13067,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "\"use strict\";\n/*var admin, name = \"Василий\";\nvar ourPlanetName = \"Земля\";\nvar userName = \"Петя\";\nadmin = name;\nalert( admin );*/\n\n/*function isIntefer(number)\n{\n\tvar number;\n\treturn (number ^ 0) === number;\n}*/\n\n/*var yourName = prompt ('Как тебя зовут?', 'Иван');\nalert ('Тебя зовут ' + yourName +'!');*/\n\n/*var guesseWord = prompt (\"Какое слово я задумал?\", \"\");\nwhile (guesseWord != \"сендвич\") \n{\nif (guesseWord == \"\") {\n\tbreak;\n}\nprompt(\"Нет. Это не оно. Попробуйте еще раз.\");\n}\nalert (\"Поздравляю! Это именно то слово!\");\n*/\n\n/*var languageName = prompt('Каково \"официальное\" название Javascript', '');\n\nif (languageName == 'EsmaScript') {\n  alert('Верно!');\n} else {\n  alert('Не знаете? \"EsmaScript\"!');\n}\n*/\n\n/*var number = prompt('Введите число', 0);\nif (number > 0) {\n  alert(1);\n} \nelse if (number < 0)\n{\n  alert(-1);\n}\nelse {\n\talert(0);\n}*/\n\n/*var login = prompt (\"Кто пришел?\", \"Админ\");\nif (login == null) {\n\talert (\"Вход отменен\");\n}\nelse if (login == \"Админ\") {\n\tvar password = prompt (\"Пароль?\", \"\");\n\tif (password == null) {\n\t\talert (\"Вход отменен\");\n\t}\n\telse if (password == \"Черный Властелин\") {\n\t\talert (\"Добро пожаловать!\");\n\t}\n\telse {\n\t\talert (\"Пароль неверен\");\n\t}\n}\nelse {\n\talert (\"Я вас не знаю\");\n}*/\n\n/*var a, b, result;\nresult = (a+b)<4 ? \"Мало\" : \"Много\";*/\n\n/*var message = (login == \"Вася\") ? \"Привет\" :\n\t(login == \"Директор\") ? \"Здравствуйте\" :\n\t(login == \"\") ? \"Нет логина\" : \"\";\n*/\n/*var age;\nif (age<14 || age>90)\nif (!(age>=14 && age<=90))*/\n\n//var a = (1,5-1)*2;\n//alert(\"4px\" - 2);\n\n/*\"\" + 1 + 0 // 1 -\n\"\" - 1 + 0 // -1 +\ntrue + false // 1 +\n6 / \"3\" //2 +\n\"2\" * \"3\"  //6 +\n4 + 5 + \"px\" //9 -\n\"$\" + 4 + 5  //9 -\n\n\"4\" - 2 //2 +\n\n\"4px\" - 2 //2 -\n\n7 / 0 // NaN -\n\n\"  -9\\n\" + 5 //-4 -\n\"  -9\\n\" - 5 //-14 +\n5 && 2 //true - \n\n2 && 5 //true -\n\n5 || 0 //true -\n\n0 || 5 //true -\nnull + 1 //1 +\nundefined + 1 // NaN +\nnull == \"\\n0\\n\" //true -\n+null == +\"\\n0\\n\" //true +*/\n\n/*var a = +prompt(\"a?\", \"\");\nswitch (a) {\n\tcase 0 :\n\talert (0);\n\tbreak;\n\n\tcase 1 :\n\talert (1);\n\tbreak;\n\n\tcase 2:\n\tcase 3:\n\talert (\"2,3\");\n\tbreak;\n}*/\n\n/*function showMessage(from, text) { // параметры from, text\n\n  from = \"** \" + from + \" **\"; // здесь может быть сложный код оформления\n\n  alert(from + ': ' + text);\n}\n\nshowMessage('Маша', 'Привет!');\nshowMessage('Шкура', 'Как дела?');\n*/\n\n/*function showMessage(from, text) {\n  if (text === undefined) {\n    text = 'текст не передан';\n  }\n\n  alert( from + \": \" + text );\n}\n\nshowMessage(\"Маша\", \"Привет!\"); // Маша: Привет!\nshowMessage(\"Маша\"); // Маша: текст не передан*/\n\n/*function calcD(a, b, c) {\n   return b*b - 4*a*c;\n}\n\nvar test = calcD(-4, 2, 1);\nalert(test); // 20*/\n\n/*function checkAge(age) {\n  if (age > 18) {\n    return true;\n  } else {\n    return confirm('Родители разрешили?');\n  }\n}*/\n\n/*var age = prompt('Ваш возраст?');\n\nif (checkAge(age)) {\n  alert( 'Доступ разрешен' );\n} else {\n  alert( 'В доступе отказано' );\n}\n\nfunction showMovie(age) {\n  if (!checkAge(age)) {\n    return;\n  }\n\n  alert( \"Фильм не для всех\" ); // (*)\n  // ...\n}*/\n\n/*function checkAge(age) {\n  return (age > 18) ? true : confirm('Родители разрешили?');\n}\n\nfunction checkAge(age) {\n  return (age > 18) || confirm('Родители разрешили?');\n}\n\nfunction min (a, b) {\n\tvar a, b;\n\tif (a < b) {\n\t\treturn a;\n\t}\n\telse {\n\t\treturn b;\n\t}\n}*/\n\n/*function pow (x, n) {\nvar result = x;\n \twhile (n) {\n \t\tn--;\n \tresult *= x;\n \t}\n return (result);\n}\nvar x = prompt (\"Введите число\", \"\");\nvar n = prompt (\"Введите степень >1\", \"\");\n if(n<=1) {\n \talert (\"Степень \"+ n + \" не поддерживается. Введите степень >1!\");\n }\n else {\nalert (pow (x, n));\n}\n*/\n\n/*function sumTo (n) {\n\tif (n>1) {\n\t\treturn n+sumTo(n-1);\n\t}\n\telse {\n\t\treturn n;\n\t}\n}\nalert (sumTo(100000));*/\n\n/*function sumTo (n) {\n\tvar result=n;\n\twhile (n) {\n\t\tn--\n\t\tresult += n;\n\t}\n\treturn result;\n}\nalert (sumTo(100000));*/\n\n/*function sumTo (n) {\n\tvar result = ((1+n)/2)*n;\n\treturn result;\n}\nalert (sumTo(100000));*/\n\n/*function sumTo (n) {\n\tvar result=0;\n\tfor (var i=1; i<=n; i++) {\n\t\tresult += i;\n\t}\n\treturn result;\n}\nalert (sumTo(2));*/\n\n/*function factorial (n) {\n\tif (n==1) {\n\t\treturn 1;\n\t}\n\telse {\n\t\treturn n*factorial (n-1);\n\t}\n}\nalert (factorial(5));*/\n\n/*function fib (n) {\n\tif (n<=1) return n;\n\telse {\n\t\treturn fib(n-1) + fib (n-2);\n\t}\n\t\n}\nalert (fib (77));*/\n\n/*function fib (n) {\n\tvar a=1, b=1;\n\tfor (var i=3; i<=n; i++) {\n\t\tvar c = a + b;\n\t\t\ta = b; \n\t\t\tb = c;\n \t}\n \treturn b;\n}\n\t\nalert (fib (77));*/\n\n/*var a = +prompt (\"Введите первое число\", \"\");\nvar b = +prompt (\"Введите второе число\", \"\");\nalert (a+b);*/\n\n//alert ( (0.1*10 + 0.2*10)/10 );\n\n/*function fibBinet (n) {\n\tvar fi = (1 + Math.sqrt(5)) / 2;\n\tvar Fn = Math.round (Math.pow (fi, n) / Math.sqrt(5));\n\treturn Fn;\n}\n\nalert (fibBinet(77));*/\n\n/*var max = 3,\n\tmin = 1;\nalert (Math.round(min - 0.5 + Math.random() * (max - min + 1)));*/\n\n/*function checkSpam (str) {\n   var modStr = str.toLowerCase();\n       if (~modStr.indexOf(\"viagra\") || ~modStr.indexOf(\"xxx\")) return true;\n       else return false;\n }*/\n\n/*function ucFirst (str) {\n   \n   if (str.charAt(0) == \"\") {\n    return str;\n   }\n   else {\n     return str[0].toUpperCase() + str.slice(1);\n   }\n }*/\n\n/*function truncate(str, maxlength) {\n      if (str.length > maxlength) {\n      return str.substr(0, maxlength - 1) + String.fromCharCode(8230);\n      }\n     return str;\n}*/\n\n/*var user = {};\nuser.name = \"Вася\";\nuser.surname ='Петров';\nuser.name = 'Сергей';\ndelete user.name;*/\n\n/*function isEmpty(obj) {\n        for (var key in obj) {\n        return false\n      }\n      return true;\n    }*/\n\n/*var salaries = {\n  \"Вася\": 600,\n  \"Петя\": 300,\n  \"Даша\": 250\n};*/\n/*var sum = 0;\n for (var name in salaries) {\n \tsum += salaries[name];\n }\nalert (sum);*/\n /*var maxName = '',\n \t max = 0;\n for (var name in salaries) {\n \tif (max < salaries[name]) {\n \t\tmax = salaries[name];\n \t\tmaxName = name;\n \t}\n }\n\nalert (maxName || \"Нет сотрудников\");\n*/\n\n/*let menu = {\n      width: 200,\n      height: 300,\n      title: \"My menu\"\n    };\n    \nfunction isNumeric(n) {\n    return !isNaN(parseFloat(n)) && isFinite(n);\n    }\n      \nfunction multiplyNumeric(obj) {\n    for (var value in obj) {\n        if (isNumeric(obj[value])) {\n          obj[value] *= 2;\n        }\n      }\n    }\n    \nmultiplyNumeric(menu);\n        \nalert( \"menu width=\" + menu.width + \" height=\" + menu.height + \" title=\" + menu.title );*/\n\n/*var goods = [];\n\nalert goods[length-1];\n\ngoods.push('Компьютер');\ngoods[goods.length] = \"Говно\";*/\n\n/*var styles = [\"Джаз\", \"Блюз\"];\nstyles.push(\"Рок-н-Ролл\");\nstyles[styles.length-2] = \"Классика\";\nalert (styles.shift());\nstyles.unshift('Рэп', 'Регги');*/\n\n/*var arr = [\"Яблоко\", \"Апельсин\", \"Груша\", \"Лимон\"];\nvar rand = min + Math.floor(Math.random() * (max + 1 - min));\nalert (arr[rand]);*/\n\n/*var calc = [],\n\tvalue = 0,\n\tresult = 0;\n\nfunction isNumeric(n) {\n    return !isNaN(parseFloat(n)) && isFinite(n);\n    }\n\nwhile(isNumeric(value)) {\n\tvalue = prompt (\"Введите число\", \"\");\n\tcalc.push(value);\n}\n\nfor (var i = 0; i < calc.length; i++) {\n\tif (isNumeric(calc[i])) {\n\tresult += +calc[i];\n   }\n}\n\nalert (\"Сумма: \" + result);*/\n\n/*function find(array, value) {\n    for (var i = 0; i < array.length; i++) {\n      if (array[i] === value) return i;\n    }\n    return -1;\n  }*/\n\n/*function filterRange(arr, a, b) {\n    var filtArr = [];\n    for (var i = 0; i < arr.length; i++) {\n      if (a <= arr[i] && arr[i] <= b) {\n      filtArr.push(arr[i]);\n      }\n    }\n    return filtArr;\n  }*/\n\n/*function findSimple (n) {\n\n\tvar array = [];\n\n\tfor (var i = 2; i <= n; i++) {\n\t\tarray[i] = true;\n\t}\n\t\n\tfor (i = 2; i*i <= n; i++) {\n\t\tif(array[i]) {\n\t\t\tfor (var j = i*i; j <= n; j += i) {\n\t\t\t\tarray[j] = false;\n\t\t\t}\n\t\t}\n\t}\n\n\tvar summ = 0;\n\tvar filtArr = [];\n\tfor (i = 0; i <= n; i++) {\n\t\tif (array[i]) {\n\t\t\tfiltArr.push(i);\n\t\t\tsumm += i;\n\t\t}\n\t}\n\n\treturn [filtArr, summ];\n}\n\nalert (findSimple (100));*/\n\n/*function getMaxSubSum (arr) {\n\tvar maxSum = 0;\n\tfor (var i = 0; i < arr.length; i++) {\n\t\tvar sumFixedStart = 0;\n\t\tfor (var j = i; j < arr.length; j++) {\n\t\t\tsumFixedStart += arr[j];\n\t\t\tmaxSum = Math.max(maxSum, sumFixedStart);\n\t\t}\n\t}\n\treturn maxSum;\n}*/\n\nfunction getMaxSubSum(arr) {\n  var maxSum = 0,\n    partialSum = 0;\n  for (var i = 0; i < arr.length; i++) {\n    partialSum += arr[i];\n    maxSum = Math.max(maxSum, partialSum);\n    if (partialSum < 0) partialSum = 0;\n  }\n  return maxSum;\n}",
-			"file": "Hello.js",
-			"file_size": 9021,
-			"file_write_time": 131249710872811734,
-			"settings":
-			{
-				"buffer_size": 8286,
 				"line_ending": "Windows"
 			}
 		}
@@ -124,13 +113,29 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "git",
+		"height": 137.0,
+		"last_filter": "git co",
 		"selected_items":
 		[
 			[
+				"git co",
+				"Set Syntax: Git Commit View"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"git q",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
 				"git",
-				"Git: Status"
+				"Git: Gui"
 			],
 			[
 				"Git",
@@ -141,7 +146,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 382.0
+		"width": 398.0
 	},
 	"console":
 	{
@@ -166,6 +171,11 @@
 	],
 	"file_history":
 	[
+		"/C/Users/savchenkoas/Dropbox/JavaScript/Hello.js",
+		"/C/Users/savchenkoas/Dropbox/JavaScript/LearnJS.html",
+		"/C/Users/savchenkoas/Dropbox/JavaScript/LearnJS/Hello.js",
+		"/C/Users/savchenkoas/Dropbox/JavaScript/LearnJS/HelloWorldJS.html",
+		"/C/Users/savchenkoas/Dropbox/JavaScript/LearnJS/Page.html",
 		"/C/Users/savchenkoas/Desktop/TDLT/www/js/main.js",
 		"/C/Users/savchenkoas/Desktop/TDLT/www/js/rpg_core.js",
 		"/C/Users/savchenkoas/Desktop/TDLT/www/js/plugins.js",
@@ -207,28 +217,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "HelloWorldJS.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 226,
+						"buffer_size": 219,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								107,
-								107
+								211,
+								211
 							]
 						],
 						"settings":
 						{
+							"auto_name": "",
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -236,34 +247,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Page.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 513,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								513,
-								513
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -273,31 +256,31 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
-					"file": "Hello.js",
+					"buffer": 1,
+					"file": "Learn.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8286,
+						"buffer_size": 13067,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8286,
-								8286
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/Git/syntax/Git Commit View.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 6615.0,
+						"translation.y": 9225.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -345,6 +328,10 @@
 	{
 		"height": 0.0
 	},
+	"output.git":
+	{
+		"height": 120.0
+	},
 	"pinned_build_system": "",
 	"project": "LearnJS.sublime-project",
 	"replace":
@@ -379,7 +366,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

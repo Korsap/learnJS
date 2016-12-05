@@ -536,3 +536,106 @@ alert ("Сумма: " + result);*/
 
 alert (findSimple (100));*/
 //================================================================================
+
+//Добавить класс в строку
+
+/*var obj = {className: 'open menu'}
+
+function addClass(obj, cls) {
+    if (obj.className) {
+    	var arrToStr = obj.className.split(" ");
+    }
+    else arrToStr = [];
+    for(var i = 0; i < arrToStr.length; i++) {
+      	if(arrToStr[i] == cls) {
+		    return;
+	  	  }
+      }
+    arrToStr.push(cls);
+    obj.className = arrToStr.join(" ");
+}
+
+addClass(obj,"new");
+addClass(obj,"open");*/
+//==================================================================================
+
+//Перевести текст вида border-left-width в borderLeftWidth
+
+/*function camelize(str) {
+	var arr = str.split("-");
+	var newArr = arr[0];
+	for(var i = 1; i < arr.length; i++) {
+	newArr += arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+	}
+	return newArr;
+}
+
+camelize("background-color");
+camelize("list-style-image");
+camelize("-webkit-transition");*/
+//==================================================================================
+
+//Функция removeClass
+
+/*var obj = {className: 'open menu menu'}
+
+function removeClass(obj, cls) {
+	if (obj.className) {
+    var arrFromStr = obj.className.split(" ");
+    }
+    else arrFromStr = [];
+    for(var i = 0; i < arrFromStr.length; i++) {
+    	for (var j = i; j < arrFromStr.length; j++) {
+	    	if(arrFromStr[j] == cls) {
+		    arrFromStr.splice(j, 1);
+	  	  }
+	  	}
+      }
+ obj.className = arrFromStr.join(" ");
+}
+
+removeClass(obj, 'menu');
+removeClass(obj, 'open'); // obj.className='menu'
+removeClass(obj, 'blabla'); // без изменений (нет такого класса)*/
+//=================================================================================
+
+//Фильтрация массива "на месте"
+
+/*function filterRangeInPlace(arr, a, b) {
+	for (var i = 0; i < arr.length; i++) {
+      if (a > arr[i] || arr[i] > b) {
+      	arr.splice(i, 1);
+      	i--;
+      }
+  }
+}*/
+//================================================================================
+
+//Сортировать в обратном порядке
+
+/*var arr = [5, 2, 1, -10, 8];
+
+function compareNumeric(a, b) {
+  return b-a;
+}
+
+arr.sort(compareNumeric);
+
+alert (arr);*/
+//===============================================================================
+
+//Скопировать и отсортировать массив
+
+/*var arr = ["HTML", "JavaScript", "CSS"];
+var arrSorted = arr.slice().sort();
+alert (arrSorted);
+alert (arr);*/
+//==============================================================================
+
+//Случайный порядок в массиве
+
+var arr = [1, 2, 3, 4, 5];
+
+function rundomize(a, b) {
+	
+}

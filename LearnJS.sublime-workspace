@@ -4,80 +4,48 @@
 		"selected_items":
 		[
 			[
-				"sum",
-				"sumFixedStart"
+				"arr",
+				"arrOfChar"
 			],
 			[
-				"max",
-				"maxSum"
+				"to",
+				"toLowerCase"
+			],
+			[
+				"new",
+				"newArr"
+			],
+			[
+				"spli",
+				"splice"
+			],
+			[
+				"cl",
+				"className"
 			],
 			[
 				"ma",
-				"maxSum"
+				"maxName"
 			],
 			[
-				"su",
-				"sumFixedStart"
+				"n",
+				"name"
 			],
 			[
-				"fi",
-				"filtArr"
-			],
-			[
-				"filt",
-				"filtArr"
-			],
-			[
-				"arr",
-				"array"
-			],
-			[
-				"find",
-				"findSimple"
+				"sa",
+				"salaries"
 			],
 			[
 				"r",
-				"result"
+				"random"
 			],
 			[
-				"a",
-				"alert"
+				"fi",
+				"fibBinet"
 			],
 			[
 				"re",
-				"result"
-			],
-			[
-				"leng",
-				"length"
-			],
-			[
-				"c",
-				"calc"
-			],
-			[
-				"v",
-				"value"
-			],
-			[
-				"pr",
-				"prompt"
-			],
-			[
-				"is",
-				"isNumeric"
-			],
-			[
-				"s",
-				"styles"
-			],
-			[
-				"l",
-				"length"
-			],
-			[
-				"p",
-				"push"
+				"return"
 			],
 			[
 				"fu",
@@ -88,19 +56,19 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "Learn.js",
 			"settings":
 			{
-				"buffer_size": 219,
+				"buffer_size": 15088,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Learn.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 13067,
+				"buffer_size": 219,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -113,40 +81,24 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 137.0,
-		"last_filter": "git co",
+		"height": 354.0,
+		"last_filter": "git st",
 		"selected_items":
 		[
 			[
-				"git co",
-				"Set Syntax: Git Commit View"
-			],
-			[
-				"pac",
-				"Package Control: Install Package"
-			],
-			[
-				"git q",
-				"Git: Quick Commit (repo)"
-			],
-			[
-				"git add",
-				"Git: Add..."
+				"git st",
+				"Git: Status"
 			],
 			[
 				"git",
-				"Git: Gui"
+				"Git: Status"
 			],
 			[
-				"Git",
-				"Git: Init"
-			],
-			[
-				"pacage",
+				"pack",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 398.0
+		"width": 446.0
 	},
 	"console":
 	{
@@ -167,15 +119,15 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/savchenkoas/Dropbox/JavaScript/LearnJS"
+		"/D/Downloads/Dropbox/JavaScript/LearnJS"
 	],
 	"file_history":
 	[
-		"/C/Users/savchenkoas/Dropbox/JavaScript/Hello.js",
-		"/C/Users/savchenkoas/Dropbox/JavaScript/LearnJS.html",
-		"/C/Users/savchenkoas/Dropbox/JavaScript/LearnJS/Hello.js",
-		"/C/Users/savchenkoas/Dropbox/JavaScript/LearnJS/HelloWorldJS.html",
-		"/C/Users/savchenkoas/Dropbox/JavaScript/LearnJS/Page.html",
+		"/D/Downloads/Dropbox/JavaScript/index.html",
+		"/D/Downloads/Dropbox/JavaScript/LearnJS/Learn.js",
+		"/D/Downloads/Dropbox/JavaScript/LearnJS/index.html",
+		"/D/Downloads/Dropbox/JavaScript/LearnJS/Hello.js",
+		"/D/Downloads/Dropbox/JavaScript/LearnJS/HelloWorldJS.html",
 		"/C/Users/savchenkoas/Desktop/TDLT/www/js/main.js",
 		"/C/Users/savchenkoas/Desktop/TDLT/www/js/rpg_core.js",
 		"/C/Users/savchenkoas/Desktop/TDLT/www/js/plugins.js",
@@ -186,7 +138,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -200,6 +152,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"newObj",
+			"strClass",
+			"classes"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -222,6 +177,129 @@
 			[
 				{
 					"buffer": 0,
+					"file": "Learn.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15088,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15074,
+								15074
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										15073,
+										15074
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										14834,
+										14835
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 10290.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
@@ -233,13 +311,101 @@
 						"selection":
 						[
 							[
-								211,
-								211
+								219,
+								219
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										214,
+										218
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										17,
+										21
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -250,49 +416,15 @@
 					"type": "text"
 				}
 			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "Learn.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13067,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Git/syntax/Git Commit View.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 9225.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 25.0
 	},
 	"input":
 	{
-		"height": 63.0
+		"height": 0.0
 	},
 	"layout":
 	{
@@ -328,15 +460,11 @@
 	{
 		"height": 0.0
 	},
-	"output.git":
-	{
-		"height": 120.0
-	},
 	"pinned_build_system": "",
 	"project": "LearnJS.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -366,7 +494,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

@@ -634,8 +634,125 @@ alert (arr);*/
 
 //Случайный порядок в массиве
 
-var arr = [1, 2, 3, 4, 5];
+/*var arr = [1, 2, 3, 4, 5];
 
 function rundomize(a, b) {
-	
+	return Math.random() - 0.5;
 }
+
+arr.sort(rundomize);
+alert (arr);*/
+//==============================================================================
+
+//Сортировка объектов
+
+/*var vasya = { name: "Вася", age: 23 },
+	masha = { name: "Маша", age: 18 },
+	vovochka = { name: "Вовочка", age: 6 };
+
+var people = [ vasya , masha , vovochka ],
+	age = [];
+
+function compareAge(personA, personB) {
+	return personA.age - personB.age;
+}
+
+people.sort(compareAge);
+for (var i = 0; i < people.length; i++) {
+	alert(people[i].name);
+}*/
+//==============================================================================
+
+//Вывести односвязный список
+
+//var list = {value: 1, next: {value: 2, next: {value: 3, next: {value: 4, next: null}}}};
+//или
+/*var list = { value: 1 };
+list.next = { value: 2 };
+list.next.next = { value: 3 };
+list.next.next.next = { value: 4 };*/
+
+//решение через цикл
+/*function printList(list) {
+	var tmp = list;
+	while (tmp) {
+		alert(tmp.value);
+		tmp = tmp.next;
+	}
+}
+printList(list);*/
+
+//решение через рекурсию
+/*function printList(list) {
+	alert(list.value);
+	if(list.next) {
+		printList(list.next);
+	}
+}
+printList(list);*/
+
+//обратный выход с рекурсией
+/*function printReverseList(list) {
+	if(list.next) {
+		printReverseList(list.next);
+	}
+	alert(list.value);
+}
+printReverseList(list);*/
+
+//обратный выход через цикл
+/*function printReverseList(list) {
+	var tmp = list;
+	var newList = [];
+	while (tmp) {
+		newList.push(tmp.value);
+		tmp = tmp.next;
+	}
+	for (var i = newList.length - 1; i >= 0; i--) {
+	alert(newList[i]);
+	}
+}
+printReverseList(list);*/
+//===========================================================================
+
+//Отфильтровать анаграммы
+/*var arr = ["воз", "киборг", "корсет", "ЗОВ", "гробик", "костер", "сектор"];
+
+function aclean(arr) {
+	var obj = {};
+	for (var i = 0; i < arr.length; i++) {
+		var arrOfChar = arr[i].toLowerCase().split("").sort().join("");
+		obj[arrOfChar] = arr[i];
+	}
+	var newArr = [];
+	for(var key in obj) {
+		newArr.push(obj[key]);
+	}
+return (newArr);
+}
+
+aclean(arr);*/
+//===========================================================================
+
+//Оставить уникальные элементы массива
+/*var strings = ["кришна", "кришна", "харе", "харе",
+  "харе", "харе", "кришна", "кришна", "8-()"
+];
+
+function unique(arr) {
+  var obj = {};
+  for (var i = 0; i < arr.length; i++) {
+    obj[arr[i]] = true;
+  }
+
+  var newArr = [];
+  for (var key in obj) {
+    newArr.push(obj[key]);
+  }
+  return(newArr);
+  // или (кроме IE8-):
+  return Object.keys(obj);
+}
+
+unique(strings);*/
+//==========================================================================
